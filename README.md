@@ -1,10 +1,9 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+EXPLORATION OF OBESITY RISK FACTORS WITH EXPLAINABLE AI
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Obesity has become a progressive global epidemic with great increase in chronic disease burdens such as diabetes, cardiovascular disorders, and cancer. Despite the methodological improvement in predictive modelling, there is still a major challenge to properly understand the complex interplay of factors responsible for obesity risk. Explainable Artificial Intelligence (XAI) makes the decision making process of machine learning models more understandable and transparent in the context of obesity risk assessments. The study majorly focuses on analyzing key factors which includes genetic markers, dietary practices, physical activity levels, psychological aspects, environmental conditions and socioeconomic conditions. Explainable AI methods such as SHAP (SHapley AdditiveexPlanations), LIME (Local Interpretable Model-Agnostic Explanations), and counterfactual explanations to describe the factors contributing the risk predictions of obesity on both population and individual levels.
 
 ## Features
 <!--List the features of the project as shown below-->
@@ -15,44 +14,54 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 - A specific scope of Chatbot response model, using json data format.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+Processor: Intel i5/i7 or AMD Ryzen 5/7 (minimum), GPU (e.g., NVIDIA GTX 1650 or higher for faster computation).
+RAM: At least 8GB (16GB+ recommended for large datasets).
+Storage: Minimum 256GB SSD (recommended 512GB+ for faster data handling).
+GPU (Optional but Recommended): NVIDIA RTX 3060 or higher for deep learning models.
+Operating System: Windows 10/11, macOS, or Linux (Ubuntu recommended).
+
+Software Requirements:
+Programming Language: Python (≥3.8 recommended).
+Libraries: NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn.
+Deep Learning (if applicable): TensorFlow/PyTorch for advanced models.
+Development Environment: Jupyter Notebook, VS Code, or PyCharm.
+Hardware Drivers: CUDA & cuDNN (if using GPU acceleration).
+
+
+
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![image](https://github.com/user-attachments/assets/c798d250-2b92-422c-8d4c-5db0fde4816a)
+
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+#### Output1 
+![image](https://github.com/user-attachments/assets/b3ceec0b-c935-48ac-9e00-db81a70c4b2b)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
-
+#### Output2
+![image](https://github.com/user-attachments/assets/f26aedff-e57e-4a2d-945a-d4fa95b3821a)
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+![image](https://github.com/user-attachments/assets/a7c73e83-7966-488d-9d22-8d96128f3be7)
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. Hruby, A., & Hu, F. B. (2015). The Epidemiology of Obesity: A Big Picture. Pharmacoeconomics, 33(7), 673-689.
+2. Bray, G. A., Kim, K. K., & Wilding, J. P. H. (2017). Obesity: a chronic relapsing progressive disease process: a position statement of the World Obesity Federation. Obesity Reviews, 18(7), 715-723.
+3. Afshin, A., Forouzanfar, M. H., Reitsma, M. B., et al. (2017). Health effects of overweight and obesity in 195 countries over 25 years. New England Journal of Medicine, 377(1), 13-27.
+4. Khera, A. V., Chaffin, M., Wade, K. H., et al. (2019). Polygenic prediction of weight and obesity trajectories from birth to adulthood. Cell, 177(3), 587-596.
+5. Dugan, T. M., Mukherjee, S., Carroll, A., & Downs, S. (2015). Machine learning techniques for prediction of early childhood obesity. Applied Clinical Informatics, 6(3), 506-520.
+6. Wang, Y., Min, J., & Khuri, J. (2017). A systematic examination of the association between obesity and diabetes: Machine learning applications. Translational Metabolic Syndrome Research, 1(1), 16-25.
+7.Ribeiro, M. T., Singh, S., & Guestrin, C. (2016). Why should I trust you? Explaining the predictions of any classifier. Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 1135-1144.
+
+
 
 
 
